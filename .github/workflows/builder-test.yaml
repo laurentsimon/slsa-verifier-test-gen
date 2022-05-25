@@ -18,7 +18,6 @@ jobs:
     #uses: laurentsimon/slsa-github-generator/.github/workflows/builder_go_slsa3.yml@v0.0.21
     with:
       go-version: 1.17
-      upload-assets: false
       config-file: ./.github/workflows/go-configs/config1.yml
       compile-builder: true
 
